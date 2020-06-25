@@ -8,17 +8,20 @@ function App({}: AppProps) {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <img
+          src={'https://digirati.com/media/1002/digirati-logo-white-green.svg'}
+          className="App-logo"
+          alt="logo"
+        />
+        <p>Hello world.</p>
+        <p>I am a basic snowpack app.</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://digirati.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn About Digirati
         </a>
       </header>
     </div>
